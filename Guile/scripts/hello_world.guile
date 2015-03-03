@@ -1,0 +1,4 @@
+#!/usr/locl/bin/guile -s
+!#
+(display "hello world!")
+(newline)
