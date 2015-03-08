@@ -16,7 +16,7 @@ R5RS >> The First Report on Scheme Revisited
 One of the great simplifications of Scheme is that a procedure is just another type of value, and that procedure values can be passed around and stored in variables in exactly the same way as, for example, strings and lists. When we talk about a built-in standard Scheme procedure such as open-input-file, what we actually mean is that there is a pre-defined top level variable called open-input-file, whose value is a procedure that implements what R5RS says that open-input-file should do.
 -->
 
-Sheeme最大的精简点之一在于，过程是另一种类型的值，过程这种值能够被传递，也能够像字符串和列表一样存储在变量中。当我们谈及过一个内建的标准Scheme过程，比方说open-input-file，我们真正所指的是，在最顶级有一个预定义好的变量，它的名称叫open-input-file，它的值是实现了R5RS中所说的open-input-file功能的一个过程。
+Scheme最大的精简点之一在于，过程是另一种类型的值，过程值能够被传递，也能够像字符串和列表一样存储在变量中。当我们谈及一个内建的标准Scheme过程，比方说open-input-file，我们真正所指的是，在最顶级有一个预定义好的变量，它的名字是open-input-file，它的值是实现了R5RS中所说的open-input-file功能的一个过程。
 
 <!--
 Note that this is quite different from many dialects of Lisp — including Emacs Lisp — in which a program can use the same name with two quite separate meanings: one meaning identifies a Lisp function, while the other meaning identifies a Lisp variable, whose value need have nothing to do with the function that is associated with the first meaning. In these dialects, functions and variables are said to live in different namespaces.
